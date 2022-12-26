@@ -21,16 +21,16 @@ const Plan = () => {
         src='https://images.pexels.com/photos/10833363/pexels-photo-10833363.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1' alt='/' />     
       </div>
       <div className='flex flex-col h-full justify-center' >
-        <h3 className='text-5xl md:text-6xl font-bold' > Planifica tu proximo viaje  </h3>
-        <p className='text-2xl py-6' > Las vacaciones que te mereces las encontrarás aquí! </p>
-        <p className='pb-6' >
+        <h3 className='text-5xl md:text-6xl font-bold text-white' > Planifica tu proximo viaje  </h3>
+        <p className='text-2xl py-6 text-white' > Las vacaciones que te mereces las encontrarás aquí! </p>
+        <p className='pb-6 text-white' >
          Desde hermosas playas hasta paseos en barcasas en expediciones unicas! 
         </p>
         <div>
-          <button className='border-black mr-4 hover:shadow-xl'>
+          <button className='border-white mr-4 hover:shadow-xl text-white'>
           Más información
           </button>
-          <button className='bg-black text-white border-black hover:shadow-xl'>Reserva tu viaje</button>
+          <button className='bg-black text-white border-white hover:shadow-xl'>Reserva tu viaje</button>
         </div>
       </div>
   </div>
